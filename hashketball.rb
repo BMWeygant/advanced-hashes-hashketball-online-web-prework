@@ -201,7 +201,7 @@ def big_shoe_rebounds
   shoe_size = 0
   boards = 0
 game_hash.values.each do |team_data|
-#binding.pry
+binding.pry
 team_data
 end
 end
