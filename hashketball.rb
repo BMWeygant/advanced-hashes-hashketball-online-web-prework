@@ -204,4 +204,3 @@ game_hash[location][:players][:shoe].sort
 binding.pry
 end
 end
-end
