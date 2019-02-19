@@ -200,8 +200,7 @@ end
 def big_shoe_rebounds
 game_hash.each do |location, team_data|
   #binding.pry
-  if game_hash[location][:players].max_by {|player, stats| stats.fetch(:shoe)}[1]
-    return game_hash[location][:players].fetch(:rebounds.value)
+game_hash[location][:players][:shoe].sort
 end
 end
 end
