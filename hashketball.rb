@@ -200,7 +200,7 @@ end
 def big_shoe_rebounds
 game_hash.each do |location, team_data|
   #binding.pry
-
+game_hash[location][:players].sort_by { |k, v| v[:shoe] }
 #binding.pry
 end
 end
