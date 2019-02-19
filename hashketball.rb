@@ -206,5 +206,8 @@ team_data[:players].each do |player|
   if player[:shoe] > biggest_shoe
     biggest_shoe = player[:shoe]
     boards = player[:rebounds]
+  end
 end
+end
+return boards
 end
